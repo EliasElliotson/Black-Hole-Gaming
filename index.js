@@ -1,6 +1,10 @@
 // Import stylesheets
 import './style.css';
 
+// Import settings.json
+import settings from "./settings.json";
+//settings.parse();
+
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `
@@ -8,11 +12,11 @@ appDiv.innerHTML = `
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Game Title - Black Hole Gaming</title>
+  <title>`+settings.name+` - Black Hole Gaming</title>
   <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-<center><h1>Game Title</h1></center>
+<center><h1>`+settings.name+`</h1></center>
 </body>
 </html>
 `;
