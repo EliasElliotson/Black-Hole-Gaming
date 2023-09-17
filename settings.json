@@ -3,5 +3,10 @@
   "version": "1.0.0",
   "renderer": "p5",
   "company": "Black Hole Gaming Studios",
-  "year": "2023"
+  "year": "2023",
+  "font": {
+    "url":
+    "name":
+    "color":
+  }
 }
