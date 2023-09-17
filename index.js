@@ -8,7 +8,7 @@ appDiv.innerHTML = `
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>`+settings.name+` - Black Hole Gaming</title>
+  <title>`+settings.name+` - `+settings.company+`</title>
   <style>
     @import url('`+settings.font.url+`');
     
