@@ -29,7 +29,7 @@ appDiv.innerHTML = `
     @import url('`+settings.font.url+`');
     
     body {
-      background-color: #000000;
+      background-color: `+settings.page_color+`;
       color: `+settings.font.color+`;
       font-family: '`+settings.font.name+`', `+settings.font.family+`, '`+settings.font.alt+`', `+settings.font.alt_family+`;
     }

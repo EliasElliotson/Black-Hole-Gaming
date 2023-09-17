@@ -1,7 +1,6 @@
 {
   "name": "Game Title",
   "version": "1.0.0",
-  "renderer": "p5",
   "company": "Black Hole Gaming Studios",
   "year": "2023",
   "font": {
@@ -11,5 +10,6 @@
     "family": "cursive",
     "alt": "Trebuchet MS",
     "alt_family": "sans-serif"
-  }
+  },
+  "page_color": "#00FF00"
 }
