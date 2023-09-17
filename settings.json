@@ -10,6 +10,6 @@
     "color": "#FFFFFF",
     "family": "cursive",
     "alt": "Trebuchet MS",
-    "alt-family": "sans-serif"
+    "alt_family": "sans-serif"
   }
 }
