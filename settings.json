@@ -5,8 +5,11 @@
   "company": "Black Hole Gaming Studios",
   "year": "2023",
   "font": {
-    "url":
-    "name":
-    "color":
+    "url": "https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap",
+    "name": "Tilt Neon",
+    "color": "#FFFFFF",
+    "family": "cursive",
+    "alt": "Trebuchet MS",
+    "alt-family": "sans-serif"
   }
 }

@@ -1,9 +1,5 @@
-// Import stylesheets
-import './style.css';
-
 // Import settings.json
 import settings from "./settings.json";
-//settings.parse();
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
@@ -13,12 +9,11 @@ appDiv.innerHTML = `
 <head>
   <meta charset="utf-8">
   <title>`+settings.name+` - Black Hole Gaming</title>
-  <link href="style.css" rel="stylesheet" />
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+    @import url('`+settings.font.url+`');
 
     h1 {
-      font-family: 'Tilt Neon', cursive;
+      font-family: '`+settings.font.name+`', `+settings.font.family+`, `+settings.font.alt+`, `+settings.font.alt-family+`;
     }
     
     body {
