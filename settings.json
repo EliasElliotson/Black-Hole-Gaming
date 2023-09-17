@@ -6,10 +6,10 @@
   "font": {
     "url": "https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap",
     "name": "Tilt Neon",
-    "color": "#FFFFFF",
+    "color": "#000000",
     "family": "cursive",
     "alt": "Trebuchet MS",
     "alt_family": "sans-serif"
   },
-  "page_color": "#00FF00"
+  "page_color": "#FFFFFF"
 }
