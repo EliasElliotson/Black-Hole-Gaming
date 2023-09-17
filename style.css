@@ -4,3 +4,8 @@
 h1 {
   font-family: 'Tilt Neon', cursive;
 }
+
+body {
+  background-color: rgb(8, 8, 8);
+  color: white;
+}
