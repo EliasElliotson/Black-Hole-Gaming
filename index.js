@@ -24,11 +24,12 @@ appDiv.innerHTML = `
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>`+settings.name+` - `+settings.company+`</title>
+  <title>`+settings.name+`</title>
   <style>
     @import url('`+settings.font.url+`');
     
     body {
+      background-image: url("https://as2.ftcdn.net/v2/jpg/05/59/13/39/1000_F_559133954_0kKDwhaWzU2ltOH4ylCkP1B4f7N6XkPD.jpg");
       background-color: `+settings.page_color+`;
       color: `+settings.font.color+`;
       font-family: '`+settings.font.name+`', `+settings.font.family+`, '`+settings.font.alt+`', `+settings.font.alt_family+`;
