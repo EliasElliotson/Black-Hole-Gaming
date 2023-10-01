@@ -27,12 +27,12 @@ appDiv.innerHTML = `
   <title>`+settings.name+`</title>
   <style>
     @import url('`+settings.font.url+`');
-
+    /*
     * {
         margin: 0;
         padding: 0;
     } 
-
+    */
     html { 
       background: url("https://as2.ftcdn.net/v2/jpg/05/59/13/39/1000_F_559133954_0kKDwhaWzU2ltOH4ylCkP1B4f7N6XkPD.jpg") no-repeat center center fixed; 
       -webkit-background-size: cover;
@@ -50,15 +50,29 @@ appDiv.innerHTML = `
       width: 65%;
       margin: auto;
       background:white;
+      border-radius: 10px;
     }
-    p {
+
+    .content p {
       padding-left: 10%;
       padding-right: 10%;
+    }
+    
+    .header {
+      background: linear-gradient(45deg, #000000, #FFFFFF);
+    }
+
+    .header p {
+      padding: 1px;
+      font-size: 20px;
     }
   </style>
 </head>
 <body>
 <div class="content">
+<div class="header">
+    <p>Sussy baka lol</p>
+</div>
 <p>
 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
 <br/>
