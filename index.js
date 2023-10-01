@@ -112,7 +112,7 @@ appDiv.innerHTML = `
   But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their projects again and again. And if she hasn’t been rewritten, then they are still using her. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
   </p>
 </div>
-<div style="margin: auto; padding-top: 16px;"></div>
+<div style="margin: auto; padding-top: 24px;"></div>
 </div>
 </body>
 </html>
