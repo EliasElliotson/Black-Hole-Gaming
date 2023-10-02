@@ -42,6 +42,7 @@ appDiv.innerHTML = `
     }
     
     body {
+      top: 10px;
       color: `+settings.font.color+`;
       font-family: '`+settings.font.name+`', `+settings.font.family+`, '`+settings.font.alt+`', `+settings.font.alt_family+`;
     }
@@ -69,6 +70,7 @@ appDiv.innerHTML = `
       padding-top: 16px;
       padding-bottom: 16px;
       font-size: 24px;
+      font-color: #ffffff;
     }
   </style>
 </head>
